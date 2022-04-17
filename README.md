@@ -8,6 +8,7 @@ This training project is prepared by [Codecademy](https://www.codecademy.com).
 - [Project Prompt](#project-prompt)
 - [Technologies](#technologies)
 - [Sources](#sources)
+- [View the App](#view-the-app)
 
 ## Project Prompt
 
@@ -22,3 +23,7 @@ In this project, we have build a program that allows users to click an animal on
 ## Sources
 
 The techniques utilized was based on the lessons taught in [Codecademy's React, Part I](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-i/modules/wdcp-22-introduction-react-part-i/informationals/wdcp-22-introduction-react-part-i). The challenge is also provided by Codecademy.
+
+## View the App
+
+-On [Surge](https://animal_fun_facts.surge.sh/)
