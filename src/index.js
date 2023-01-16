@@ -1,12 +1,11 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import Animals from './Components/App/App';
-import './index.css';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import App from './App'
 
-
-const root = createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <Animals />
+    <App />
   </React.StrictMode>
-);
+)
