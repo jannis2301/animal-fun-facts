@@ -12,7 +12,7 @@ This training project is prepared by [Codecademy](https://www.codecademy.com).
 
 ## Project Prompt
 
-In this project, we have build a program that allows users to click an animal on the screen in order to have a fun fact pop up. Our program displays a selection of animals on the screen. Clicking an animal will cause a fact to be randomly selected from a list of potential options. The selected fact will pop up on the screen. As we keep clicking, we are able to see different facts.
+In this project, we have build an application that allows users to click an animal on the screen in order to have a fun fact pop up. Our app displays a selection of animals on the screen. Clicking an animal will cause a fact to be randomly selected from a list of potential options. The selected fact will pop up on the screen. As we keep clicking, we are able to see different facts.
 
 ## Technologies
 
