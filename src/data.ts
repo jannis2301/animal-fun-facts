@@ -9,7 +9,7 @@ export const fishes: Array<FishData> = [
   {
     id: 1,
     animal: 'dolphin',
-    image: '/images/dolphin.jpg',
+    image: '../public/images/dolphin.jpg',
     facts: [
       'Dolphins have been shown to give distinct names to each other!',
       'Dolphins are known to display their own culture!',
@@ -19,7 +19,7 @@ export const fishes: Array<FishData> = [
   {
     id: 2,
     animal: 'lobster',
-    image: '/images/lobster.jpg',
+    image: '../public/images/lobster.jpg',
     facts: [
       'Lobsters taste with their legs!',
       'Lobsters chew with their stomachs!',
@@ -29,7 +29,7 @@ export const fishes: Array<FishData> = [
   {
     id: 3,
     animal: 'starfish',
-    image: '/images/starfish.jpg',
+    image: '../public/images/starfish.jpg',
     facts: [
       'Starfish can have up to 40 arms!',
       'Starfish have no brain and no blood!',
