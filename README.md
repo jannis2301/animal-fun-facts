@@ -18,12 +18,11 @@ In this project, we have build an application that allows users to click an anim
 
 - HTML
 - CSS
-- JavaScript ES6
+- ReactJS
+- Typescript
+- Vite
+- Vitest
 
 ## Sources
 
 The techniques utilized was based on the lessons taught in [Codecademy's React, Part I](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-i/modules/wdcp-22-introduction-react-part-i/informationals/wdcp-22-introduction-react-part-i). The challenge is also provided by Codecademy.
-
-## View the App
-
--On [Surge](https://animal_fun_facts.surge.sh/)
