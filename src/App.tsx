@@ -7,6 +7,7 @@ const App = () => {
   const [fact, setFact] = useState<string>('')
   const factRef = useRef<HTMLParagraphElement | null>(null)
   const displayedFacts = useRef<{ [key: number]: number }>({})
+  const hideFactTimeout = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     if (fishes) {
@@ -41,6 +42,14 @@ const App = () => {
     if (factRef.current) {
       factRef.current.classList.add('show-fact')
     }
+
+    // Clear the previous timeout (if any)
+    if (hideFactTimeout.current) {
+      clearTimeout(hideFactTimeout.current)
+    }
+
+    // Set a new timeout to hide the fact after 5 seconds
+    hideFactTimeout.current = setTimeout(hideFact, 5000)
   }
 
   const hideFact = () => {
@@ -65,7 +74,6 @@ const App = () => {
                 role="button"
                 onClick={() => {
                   displayFact(id)
-                  setTimeout(hideFact, 8000)
                 }}
               />
             )
